@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>DEPORTES COLEGIO CELCO</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="img/LOGO principal.png" rel="icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+    <style>
+      /* Estilos para el modal de imagen ampliada */
+      #imgModalBackdrop {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(0,0,0,0.45);
+        z-index: 9999;
+        display: none;
+      }
+      .img-modal-backdrop {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        backdrop-filter: blur(2px);
+      }
+      .img-modal-content {
+        position: relative;
+        background: #fff;
+        border-radius: 16px;
+        box-shadow: 0 8px 32px rgba(1,42,74,0.18);
+        padding: 24px 24px 12px 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 90vw;
+        max-height: 90vh;
+      }
+      .img-modal-img {
+        max-width: 80vw;
+        max-height: 70vh;
+        border-radius: 12px;
+        box-shadow: 0 2px 12px rgba(1,42,74,0.12);
+        object-fit: contain;
+        margin-bottom: 8px;
+      }
+      .img-modal-close {
+        position: absolute;
+        top: 8px;
+        right: 16px;
+        background: #012a4a;
+        color: #fff;
+        border: none;
+        border-radius: 50%;
+        width: 32px;
+        height: 32px;
+        font-size: 22px;
+        cursor: pointer;
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .img-modal-arrow {
+        background: rgba(255,255,255,0.7);
+        border: none;
+        border-radius: 50%;
+        width: 36px;
+        height: 36px;
+        font-size: 22px;
+        color: #012a4a;
+        cursor: pointer;
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      @media (max-width: 600px) {
+        .img-modal-content {
+          padding: 8px;
+        }
+        .img-modal-img {
+          max-width: 98vw;
+          max-height: 60vh;
+        }
+      }
+    </style>
+
+  <!-- =======================================================
+  * Template Name: College
+  * Template URL: https://bootstrapmade.com/college-bootstrap-education-template/
+  * Updated: Jun 19 2025 with Bootstrap v5.3.6
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+
+<body class="index-page" style="background:#87ceeb !important;">
+  <div class="logo-title-bg w-100">
+    <div class="d-flex justify-content-center align-items-center mb-4">
+      <div style="
+        width:120px;
+        height:120px;
+        border-radius:50%;
+        background:linear-gradient(135deg,#001f3f 70%,#35648c 100%);
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        box-shadow:0 4px 16px rgba(1,42,74,0.12);
+        ">
+        <img src="img/LOGO principal.png" alt="Logo Colegio Celco" style="width:80px;height:80px;border-radius:50%;object-fit:cover;">
+      </div>
+      <h1 style="font-size:2.2rem;font-weight:700;color:#001a33;margin:0;">DEPORTES COLEGIO CELCO</h1>
+    </div>
+  </div>
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-end">
+      <nav class="navbar navbar-expand-lg navbar-dark w-100" style="background-color: #001f3f;">
+        <div class="container-fluid px-4">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 w-100 justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="habitos.html">HÁBITOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="logros.html">LOGROS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="info.html">INFORMACIÓN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="eventos.html">EVENTOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="estudiantes.html">ESTUDIANTES</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="deportesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  DEPORTES
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="deportesDropdown">
+                  <li><a class="dropdown-item" href="voleibol.html">VOLEIBOL</a></li>
+                  <li><a class="dropdown-item" href="futbol.html">FÚTBOL SALA</a></li>
+                  <li><a class="dropdown-item" href="baloncesto.html">BALONCESTO</a></li>
+                  <li><a class="dropdown-item" href="gimnasia.html">GIMNASIA RITMICA</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main class="main sky-bg" style="margin-top:0;">
+    <div class="page-title light-background">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0 text-center w-100">INFORMACIÓN DADA POR LOS ESTUDIANTES</h1>
+      </div>
+    </div>
+
+    <div class="container py-5">
+      <div class="row g-4">
+        <!-- Ejemplo tarjeta con una sola imagen -->
+        <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
+          <div class="card border border-2 border-secondary" style="width:100%;min-height:180px;">
+            <div class="image-sequence" data-images='["img/TRABAJOS/Bicicleta.jpg"]'>
+              <img src="img/TRABAJOS/Bicicleta.jpg" class="card-img-top seq-img" alt="Imagen" style="width:100%;height:180px;object-fit:cover;">
+            </div>
+            <div class="card-body text-center">
+              <p class="card-title">Sara Calixto</p>
+              <p class="card-text">Noveno A</p>
+              <p class="card-text">Logo creado por la estudiante</p>
+            </div>
+          </div>
+        </div>
+        <!-- Ejemplo tarjeta con varias imágenes -->
+        <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
+          <div class="card border border-2 border-secondary" style="width:100%;min-height:180px;">
+            <div class="image-sequence" data-images='[
+              "img/TRABAJOS/Juan Rincon 1.jpg",
+              "img/TRABAJOS/Juan Rincon 2.jpg",
+              "img/TRABAJOS/Juan Rincon 3.jpg",
+              "img/TRABAJOS/Juan Rincon 4.jpg"
+            ]'>
+              <button class="seq-prev seq-btn" style="left:8px;">&#8592;</button>
+              <img src="img/TRABAJOS/Juan Rincon 1.jpg" class="card-img-top seq-img" alt="Imagen" style="width:100%;height:180px;object-fit:cover;">
+              <button class="seq-next seq-btn" style="right:8px;">&#8594;</button>
+            </div>
+            <div class="card-body text-center">
+              <p class="card-title">Juan Rincón</p>
+              <p class="card-text">Cuarto</p>
+              <p class="card-text">Gimnasta Karol Lizarazo</p>
+            </div>
+          </div>
+        </div>
+        <!-- Repite el patrón para todas las tarjetas -->
+        <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
+          <div class="card border border-2 border-secondary" style="width:100%;min-height:180px;">
+            <div class="image-sequence" data-images='[
+              "img/TRABAJOS/Esteban Vallejo 1.1.jpg",
+              "img/TRABAJOS/Esteban Vallejo 1.2.jpg",
+              "img/TRABAJOS/Esteban Vallejo 1.3.jpg",
+              "img/TRABAJOS/Esteban Vallejo 1.4.jpg",
+              "img/TRABAJOS/Esteban Vallejo 1.5.jpg"
+            ]'>
+              <button class="seq-prev seq-btn" style="left:8px;">&#8592;</button>
+              <img src="img/TRABAJOS/Esteban Vallejo 1.1.jpg" class="card-img-top seq-img" alt="Imagen" style="width:100%;height:180px;object-fit:cover;">
+              <button class="seq-next seq-btn" style="right:8px;">&#8594;</button>
+            </div>
+            <div class="card-body text-center">
+              <p class="card-title">Esteban Vallejo</p>
+              <p class="card-text">Sexto A</p>
+              <p class="card-text">Deportista Wilfredo León</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
+          <div class="card border border-2 border-secondary" style="width:100%;min-height:180px;">
+            <div class="image-sequence" data-images='[
+              "img/TRABAJOS/Kevin Fuentes 1.1.jpg",
+              "img/TR
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
+          <div class="card border border-2 border-secondary" style="width:100%;min-height:180px;">
+            <div class="image-sequence" data-images='[
+              "img/TRABAJOS/Kevin Fuentes 1.1.jpg",
+              "img/TRABAJOS/Kevin Fuentes 1.2.jpg"
+            ]'>
+              <button class="seq-prev seq-btn" style="left:8px;">&#8592;</button>
+              <img src="img/TRABAJOS/Kevin Fuentes 1.1.jpg" class="card-img-top seq-img" alt="Imagen" style="width:100%;height:180px;object-fit:cover;">
+              <button class="seq-next seq-btn" style="right:8px;">&#8594;</button>
+            </div>
+            <div class="card-body text-center">
+              <p class="card-title">Kevin Fuentes</p>
+              <p class="card-text">Décimo B</p>
+              <p class="card-text">Fundamentos Técnicos Voleibol</p>
+            </div>
+          </div>
+        </div>
+        <!-- Tarjetas con varias imágenes (ajusta las rutas según corresponda) -->
+        <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
+          <div class="card border border-2 border-secondary" style="width:100%;min-height:180px;">
+            <div class="image-sequence" data-images='[
+              "img/TRABAJOS/Maria Ramirez 1.jpg",
+              "img/TRABAJOS/Maria Ramirez 2.jpg"
+            ]'>
+              <button class="seq-prev seq-btn" style="left:8px;">&#8592;</button>
+              <img src="img/TRABAJOS/Maria Ramirez 1.jpg" class="card-img-top seq-img" alt="Imagen" style="width:100%;height:180px;object-fit:cover;">
+              <button class="seq-next seq-btn" style="right:8px;">&#8594;</button>
+            </div>
+            <div class="card-body text-center">
+              <p class="card-title">María Ramírez</p>
+              <p class="card-text">Sexto A</p>
+              <p class="card-text">Deportista Gabriela Braga Guimarães</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
+          <div class="card border border-2 border-secondary" style="width:100%;min-height:180px;">
+            <div class="image-sequence" data-images='[
+              "img/TRABAJOS/Karol Lizarazo 1.jpg",
+              "img/TRABAJOS/Karol Lizarazo 2.jpg "
+            ]'>
+              <button class="seq-prev seq-btn" style="left:8px;">&#8592;</button>
+              <img src="img/TRABAJOS/Karol Lizarazo 1.jpg" class="card-img-top seq-img" alt="Imagen" style="width:100%;height:180px;object-fit:cover;">
+              <button class="seq-next seq-btn" style="right:8px;">&#8594;</button>
+            </div>
+            <div class="card-body text-center">
+              <p class="card-title">Karol Lizarazo</p>
+              <p class="card-text">Sexto A</p>
+              <p class="card-text">Fundamentos Técnicos Voleibol</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
+          <div class="card border border-2 border-secondary" style="width:100%;min-height:180px;">
+            <div class="image-sequence" data-images='[
+              "img/TRABAJOS/Sara Naranjo 1.jpg",
+              "img/TRABAJOS/Sara Naranjo 2.jpg "
+            ]'>
+              <button class="seq-prev seq-btn" style="left:8px;">&#8592;</button>
+              <img src="img/TRABAJOS/Sara Naranjo 1.jpg" class="card-img-top seq-img" alt="Imagen" style="width:100%;height:180px;object-fit:cover;">
+              <button class="seq-next seq-btn" style="right:8px;">&#8594;</button>
+            </div>
+            <div class="card-body text-center">
+              <p class="card-title">Sara Naranjo</p>
+              <p class="card-text">Noveno B</p>
+              <p class="card-text">Logo creado por la estudiante</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
+          <div class="card border border-2 border-secondary" style="width:100%;min-height:180px;">
+            <div class="image-sequence" data-images='[
+              "img/TRABAJOS/Juan Plazas 1.jpg",
+              "img/TRABAJOS/Juan Plazas 2.jpg",
+              "img/TRABAJOS/Juan Plazas 3.jpg"
+            ]'>
+              <button class="seq-prev seq-btn" style="left:8px;">&#8592;</button>
+              <img src="img/TRABAJOS/Juan Plazas 1.jpg" class="card-img-top seq-img" alt="Imagen" style="width:100%;height:180px;object-fit:cover;">
+              <button class="seq-next seq-btn" style="right:8px;">&#8594;</button>
+            </div>
+            <div class="card-body text-center">
+              <p class="card-title">Juan Plazas</p>
+              <p class="card-text">Noveno B</p>
+              <p class="card-text">Logo creado por el estudiante</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
+          <div class="card border border-2 border-secondary" style="width:100%;min-height:180px;">
+            <div class="image-sequence" data-images='["img/TRABAJOS/Miguel Diaz.jpg"]'>
+              <img src="img/TRABAJOS/Miguel Diaz.jpg" class="card-img-top seq-img" alt="Imagen" style="width:100%;height:180px;object-fit:cover;">
+            </div>
+            <div class="card-body text-center">
+              <p class="card-text">Miguel Díaz</p>
+              <p class="card-text">Décimo A</p>
+              <p class="card-text">Logo creado por el estudiante</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
+          <div class="card border border-2 border-secondary" style="width:100%;min-height:180px;">
+            <div class="image-sequence" data-images='["img/TRABAJOS/Mayra Cardenas.jpg"]'>
+              <img src="img/TRABAJOS/Mayra Cardenas.jpg" class="card-img-top seq-img" alt="Imagen" style="width:100%;height:180px;object-fit:cover;">
+            </div>
+            <div class="card-body text-center">
+              <p class="card-title">Mayra Cardenas</p>
+              <p class="card-text">Décimo A</p>
+              <p class="card-text">Logo creado por la estudiante</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
+          <div class="card border border-2 border-secondary" style="width:100%;min-height:180px;">
+            <div class="image-sequence" data-images='[
+              "img/TRABAJOS/Kevin Fuentes 2.1.jpg",
+              "img/TRABAJOS/Kevin Fuentes 2.2.jpg"
+            ]'>
+              <button class="seq-prev seq-btn" style="left:8px;">&#8592;</button>
+              <img src="img/TRABAJOS/Kevin Fuentes 2.1.jpg" class="card-img-top seq-img" alt="Imagen" style="width:100%;height:180px;object-fit:cover;">
+              <button class="seq-next seq-btn" style="right:8px;">&#8594;</button>
+            </div>
+            <div class="card-body text-center">
+              <p class="card-title">Kevin Fuentes</p>
+              <p class="card-text">Décimo B</p>
+              <p class="card-text">Logo creado por el estudiante</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
+          <div class="card border border-2 border-secondary" style="width:100%;min-height:180px;">
+            <div class="image-sequence" data-images='["img/TRABAJOS/Ivan Corizon.jpg"]'>
+              <img src="img/TRABAJOS/Ivan Corizon.jpg" class="card-img-top seq-img" alt="Imagen" style="width:100%;height:180px;object-fit:cover;">
+            </div>
+            <div class="card-body text-center">
+              <p class="card-title">Ivan Carreño</p>
+              <p class="card-text">Décimo B</p>
+              <p class="card-text">Logp creado por el estudiante</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
+          <div class="card border border-2 border-secondary" style="width:100%;min-height:180px;">
+            <div class="image-sequence" data-images='["img/TRABAJOS/Dylan Ochoa.jpg"]'>
+              <img src="img/TRABAJOS/Dylan Ochoa.jpg" class="card-img-top seq-img" alt="Imagen" style="width:100%;height:180px;object-fit:cover;">
+            </div>
+            <div class="card-body text-center">
+              <p class="card-text">Dylan Ochoa</p>
+              <p class="card-text">Decimo B</p>
+              <p class="card-text">Logo creado por el estudiante</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
+          <div class="card border border-2 border-secondary" style="width:100%;min-height:180px;">
+            <div class="image-sequence" data-images='["img/TRABAJOS/Lucia Rios.jpg"]'>
+              <img src="img/TRABAJOS/Lucia Rios.jpg" class="card-img-top seq-img" alt="Imagen" style="width:100%;height:180px;object-fit:cover;">
+            </div>
+            <div class="card-body text-center">
+              <p class="card-title">Lucia Ríos</p>
+              <p class="card-text">Décimo B</p>
+              <p class="card-text">Logo creado por la estudiante</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
+          <div class="card border border-2 border-secondary" style="width:100%;min-height:180px;">
+            <div class="image-sequence" data-images='["img/TRABAJOS/Fernanda Chaparro.jpg"]'>
+              <img src="img/TRABAJOS/Fernanda Chaparro.jpg" class="card-img-top seq-img" alt="Imagen" style="width:100%;height:180px;object-fit:cover;">
+            </div>
+            <div class="card-body text-center">
+              <p class="card-title">Fernanda Chaparro</p>
+              <p class="card-text">Décimo B</p>
+              <p class="card-text">Logo creado por la estudiante</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
+          <div class="card border border-2 border-secondary" style="width:100%;min-height:180px;">
+            <div class="image-sequence" data-images='["img/TRABAJOS/Ana Martinez.jpg"]'>
+              <img src="img/TRABAJOS/Ana Martinez.jpg" class="card-img-top seq-img" alt="Imagen" style="width:100%;height:180px;object-fit:cover;">
+            </div>
+            <div class="card-body text-center">
+              <p class="card-title">Ana Martínez</p>
+              <p class="card-text">Décimo B</p>
+              <p class="card-text">Logo creado por la estudiante</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
+          <div class="card border border-2 border-secondary" style="width:100%;min-height:180px;">
+            <div class="image-sequence" data-images='["img/TRABAJOS/Karen Florez.jpg"]'>
+              <img src="img/TRABAJOS/Karen Florez.jpg" class="card-img-top seq-img" alt="Imagen" style="width:100%;height:180px;object-fit:cover;">
+            </div>
+            <div class="card-body text-center">
+              <p class="card-title">Karen Flórez</p>
+              <p class="card-text">Noveno A</p>
+              <p class="card-text">Logo creado por la estudiante</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
+          <div class="card border border-2 border-secondary" style="width:100%;min-height:180px;">
+            <div class="image-sequence" data-images='["img/TRABAJOS/Juan Sebastian.jpg"]'>
+              <img src="img/TRABAJOS/Juan Sebastian.jpg" class="card-img-top seq-img" alt="Imagen" style="width:100%;height:180px;object-fit:cover;">
+            </div>
+            <div class="card-body text-center">
+              <p class="card-title">Juan Sebastian Álvarez</p>
+              <p class="card-text">Noveno A</p>
+              <p class="card-text">Logo creado por el estudiante</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
+          <div class="card border border-2 border-secondary" style="width:100%;min-height:180px;">
+            <div class="image-sequence" data-images='["img/TRABAJOS/Eimy Tunarosa.jpg"]'>
+              <img src="img/TRABAJOS/Eimy Tunarosa.jpg" class="card-img-top seq-img" alt="Imagen" style="width:100%;height:180px;object-fit:cover;">
+            </div>
+            <div class="card-body text-center">
+              <p class="card-title">Eimy Tunarosa</p>
+              <p class="card-text">Décimo B</p>
+              <p class="card-text">Logo creado por la estudiante</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
+          <div class="card border border-2 border-secondary" style="width:100%;min-height:180px;">
+            <div class="image-sequence" data-images='[
+              "img/TRABAJOS/Jacob Parra 1.jpg",
+              "img/TRABAJOS/Jacob Parra 2.jpg"
+            ]'>
+              <button class="seq-prev seq-btn" style="left:8px;">&#8592;</button>
+              <img src="img/TRABAJOS/Jacob Parra 1.jpg" class="card-img-top seq-img" alt="Imagen" style="width:100%;height:180px;object-fit:cover;">
+              <button class="seq-next seq-btn" style="right:8px;">&#8594;</button>
+            </div>
+            <div class="card-body text-center">
+              <p class="card-title">Jacob Parra</p>
+              <p class="card-text">Séptimo A</p>
+              <p class="card-text">Deportista Karch Kiraly</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
+          <div class="card border border-2 border-secondary" style="width:100%;min-height:180px;">
+            <div class="image-sequence" data-images='["img/TRABAJOS/Esteban Vallejo 2.jpg"]'>
+              <img src="img/TRABAJOS/Esteban Vallejo 2.jpg" class="card-img-top seq-img" alt="Imagen" style="width:100%;height:180px;object-fit:cover;">
+            </div>
+            <div class="card-body text-center">
+              <p class="card-title">Esteban Vallejo</p>
+              <p class="card-text">Sexto A</p>
+              <p class="card-text">Fundamentos Técnicos Voleibol</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
+          <div class="card border border-2 border-secondary" style="width:100%;min-height:180px;">
+            <div class="image-sequence" data-images='[
+              "img/TRABAJOS/Yury Talero 1.jpg",
+              "img/TRABAJOS/Yury Talero 2.jpg",
+              "img/TRABAJOS/Yury Talero 3.jpg",
+              "img/TRABAJOS/Yury Talero 4.jpg",
+              "img/TRABAJOS/Yury Talero 5.jpg"
+            ]'>
+              <button class="seq-prev seq-btn" style="left:8px;">&#8592;</button>
+              <img src="img/TRABAJOS/Yury Talero 1.jpg" class="card-img-top seq-img" alt="Imagen" style="width:100%;height:180px;object-fit:cover;">
+              <button class="seq-next seq-btn" style="right:8px;">&#8594;</button>
+            </div>
+            <div class="card-body text-center">
+              <p class="card-title">Yury Talero</p>
+              <p class="card-text">Décimo A</p>
+              <p class="card-text">Fundamento Técnicos Voleibol</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
+          <div class="card border border-2 border-secondary" style="width:100%;min-height:180px;">
+            <div class="image-sequence" data-images='[
+              "img/TRABAJOS/Mariana Gonzalez 1.jpg",
+              "img/TRABAJOS/Mariana Gonzalez 2.jpg",
+              "img/TRABAJOS/Mariana Gonzalez 3.jpg"
+            ]'>
+              <button class="seq-prev seq-btn" style="left:8px;">&#8592;</button>
+              <img src="img/TRABAJOS/Mariana Gonzalez 1.jpg" class="card-img-top seq-img" alt="Imagen" style="width:100%;height:180px;object-fit:cover;">
+              <button class="seq-next seq-btn" style="right:8px;">&#8594;</button>
+            </div>
+            <div class="card-body text-center">
+              <p class="card-title">Mariana Gonzalez</p>
+              <p class="card-text">Décimo B</p>
+              <p class="card-text">Fundamentos Técnicos Voleibol</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
+          <div class="card border border-2 border-secondary" style="width:100%;min-height:180px;">
+            <div class="image-sequence" data-images='[
+              "img/TRABAJOS/Jetferson Mercado 1.jpg",
+              "img/TRABAJOS/Jetferson Mercado 2.jpg",
+              "img/TRABAJOS/Jetferson Mercado 3.jpg"
+            ]'>
+              <button class="seq-prev seq-btn" style="left:8px;">&#8592;</button>
+              <img src="img/TRABAJOS/Jetferson Mercado 1.jpg" class="card-img-top seq-img" alt="Imagen" style="width:100%;height:180px;object-fit:cover;">
+              <button class="seq-next seq-btn" style="right:8px;">&#8594;</button>
+            </div>
+            <div class="card-body text-center">
+              <p class="card-title">Jetferson Mercado</p>
+              <p class="card-text">Décimo A</p>
+              <p class="card-text">Fundamentos Técnicos Voleibol</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+    <main class="main">
+    <div class="page-title light-background sky-bg" style="background:#87ceeb !important;">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">LOGOS CREADOS POR LOS ESTUDIANTES</h1>
+        <h2 class="mb-2 mb-lg-0">13 GANADORES</h2> 
+        <nav class="breadcrumbs">
+
+   <main class="main">
+    <div class="container py-5">
+      <div class="row g-4">
+
+       <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
+          <div class="card border border-2 border-secondary" style="width:100%;min-height:180px;">
+            <div class="image-sequence" data-images='["img/LOGOS/LOGO 1.jpg"]'>
+              <img src="img/LOGOS/LOGO 1.jpg" class="card-img-top seq-img" alt="Imagen" style="width:100%;height:180px;object-fit:cover;">
+            </div>
+            <div class="card-body text-center">
+              <p class="card-title">Zaily Orduz</p>
+              <p class="card-text">Undécimo A</p>
+              <p class="card-text">A bold, circular logo for a swim gear brand, featuring the word "swim" and illustrations of essential aquatic apparel like a snorkel, shirt, and shorts.</p>
+            </div>
+          </div>
+        </div>      
+         <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
+          <div class="card border border-2 border-secondary" style="width:100%;min-height:180px;">
+            <div class="image-sequence" data-images='["img/LOGOS/LOGO 2.jpg"]'>
+              <img src="img/LOGOS/LOGO 2.jpg" class="card-img-top seq-img" alt="Imagen" style="width:100%;height:180px;object-fit:cover;">
+            </div>
+            <div class="card-body text-center">
+              <p class="card-title">Stefany Merchan</p>
+              <p class="card-text">Décimo A</p>
+              <p class="card-text">The slogan "THE DRAGON’S FIRE DRIVES YOU" highlights energy and motivation, while bold red letters and flame motifs emphasize strength and passion.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
+          <div class="card border border-2 border-secondary" style="width:100%;min-height:180px;">
+            <div class="image-sequence" data-images='["img/LOGOS/LOGO 3.jpg"]'>
+              <img src="img/LOGOS/LOGO 3.jpg" class="card-img-top seq-img" alt="Imagen" style="width:100%;height:180px;object-fit:cover;">
+            </div>
+            <div class="card-body text-center">
+              <p class="card-title">Eber Fernandez</p>
+              <p class="card-text">Octavo A</p>
+              <p class="card-text">This logo features a fierce, aggressive panther in a striking posture, symbolizing strength, agility, and power. The bold uppercase text "FEROX" beneath the panther conveys energy and determination, making it ideal for a dynamic sportswear brand.</p>
+            </div>
+          </div>
+        </div>
+               <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
+          <div class="card border border-2 border-secondary" style="width:100%;min-height:180px;">
+            <div class="image-sequence" data-images='["img/LOGOS/LOGO 4.jpg"]'>
+              <img src="img/LOGOS/LOGO 4.jpg" class="card-img-top seq-img" alt="Imagen" style="width:100%;height:180px;object-fit:cover;">
+            </div>
+            <div class="card-body text-center">
+              <p class="card-title">David Acevedo</p>
+              <p class="card-text">Décimo A</p>
+              <p class="card-text">The cogle is present in the logo, which represents strengthiagrlity and thought at the moment of acting, and the name means strength.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
+          <div class="card border border-2 border-secondary" style="width:100%;min-height:180px;">
+            <div class="image-sequence" data-images='["img/LOGOS/LOGO 5.jpg"]'>
+              <img src="img/LOGOS/LOGO 5.jpg" class="card-img-top seq-img" alt="Imagen" style="width:100%;height:180px;object-fit:cover;">
+            </div>
+            <div class="card-body text-center">
+              <p class="card-title">Mia Rios</p>
+              <p class="card-text">Décimo B</p>
+              <p class="card-text">The VULKAN Logo combines the strength of the volcano with the rebirth of the phoenix. The volcano represents inner energy that eyupts with unstoppable power.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
+          <div class="card border border-2 border-secondary" style="width:100%;min-height:180px;">
+            <div class="image-sequence" data-images='["img/LOGOS/LOGO 6.jpg"]'>
+              <img src="img/LOGOS/LOGO 6.jpg" class="card-img-top seq-img" alt="Imagen" style="width:100%;height:180px;object-fit:cover;">
+            </div>
+            <div class="card-body text-center">
+              <p class="card-title">Laura Acevedo</p>
+              <p class="card-text">Undécimo B</p>
+              <p class="card-text">The logo for Zyra’s Sport features a bold, black letter Z intertwined with elegant purple and green floral elements, symbolizing strength and growth.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
+          <div class="card border border-2 border-secondary" style="width:100%;min-height:180px;">
+            <div class="image-sequence" data-images='["img/LOGOS/LOGO 7.jpg"]'>
+              <img src="img/LOGOS/LOGO 7.jpg" class="card-img-top seq-img" alt="Imagen" style="width:100%;height:180px;object-fit:cover;">
+            </div>
+            <div class="card-body text-center">
+              <p class="card-title">Sebastian Pinto</p>
+              <p class="card-text">Décimo A</p>
+              <p class="card-text">The logo features a wolf on fire the logo wich symbolizes strength and the name "ZULFAR" symbolizes energy, this also tronumits power and aggresiveness, it is a desing that symbolizes intensity and bolness.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
+          <div class="card border border-2 border-secondary" style="width:100%;min-height:180px;">
+            <div class="image-sequence" data-images='["img/LOGOS/LOGO 8.jpg"]'>
+              <img src="img/LOGOS/LOGO 8.jpg" class="card-img-top seq-img" alt="Imagen" style="width:100%;height:180px;object-fit:cover;">
+            </div>
+            <div class="card-body text-center">
+              <p class="card-title">Andres Herrera</p>
+              <p class="card-text">Noveno B</p>
+              <p class="card-text">The name "ATHLOS," which comes from the Greek word for "contest" or "competition," further highlights the logo's sporty identity and competitive spirit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
+          <div class="card border border-2 border-secondary" style="width:100%;min-height:180px;">
+            <div class="image-sequence" data-images='["img/LOGOS/LOGO 9.jpg"]'>
+              <img src="img/LOGOS/LOGO 9.jpg" class="card-img-top seq-img" alt="Imagen" style="width:100%;height:180px;object-fit:cover;">
+            </div>
+            <div class="card-body text-center">
+              <p class="card-title">Angie Rodriguez</p>
+              <p class="card-text">Octavo A</p>
+              <p class="card-text">The logo combines the strength of a powerful animal with the precision of geometric shapes to create a concept that conveys energy and elegance.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
+          <div class="card border border-2 border-secondary" style="width:100%;min-height:180px;">
+            <div class="image-sequence" data-images='["img/LOGOS/LOGO 10.jpg"]'>
+              <img src="img/LOGOS/LOGO 10.jpg" class="card-img-top seq-img" alt="Imagen" style="width:100%;height:180px;object-fit:cover;">
+            </div>
+            <div class="card-body text-center">
+              <p class="card-title">Sarah Perez</p>
+              <p class="card-text">Undécimo B</p>
+              <p class="card-text">Hello kitty's charm and energy shine as an athlete, proudly representing "Team Kitty".</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
+          <div class="card border border-2 border-secondary" style="width:100%;min-height:180px;">
+            <div class="image-sequence" data-images='["img/LOGOS/LOGO 11.jpg"]'>
+              <img src="img/LOGOS/LOGO 11.jpg" class="card-img-top seq-img" alt="Imagen" style="width:100%;height:180px;object-fit:cover;">
+            </div>
+            <div class="card-body text-center">
+              <p class="card-title">Ashley Espinel</p>
+              <p class="card-text">Undécimo A</p>
+              <p class="card-text">The logo combines the inspiration of "Mamba" intensity and dedication with Kishar femenine principe of the earth and fertility creating a balance betwween strength and hormony.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
+          <div class="card border border-2 border-secondary" style="width:100%;min-height:180px;">
+            <div class="image-sequence" data-images='["img/LOGOS/LOGO 12.jpg"]'>
+              <img src="img/LOGOS/LOGO 12.jpg" class="card-img-top seq-img" alt="Imagen" style="width:100%;height:180px;object-fit:cover;">
+            </div>
+            <div class="card-body text-center">
+              <p class="card-title">Sharay Pedraza</p>
+              <p class="card-text">Undécimo B</p>
+              <p class="card-text">The logo represents the school's volleyball team with the image of cat, symbolizing agility and quick movements, with elements of the sport.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center align-items-center">
+          <div class="card border border-2 border-secondary" style="width:100%;min-height:180px;">
+            <div class="image-sequence" data-images='["img/LOGOS/LOGO 13.jpg"]'>
+              <img src="img/LOGOS/LOGO 13.jpg" class="card-img-top seq-img" alt="Imagen" style="width:100%;height:180px;object-fit:cover;">
+            </div>
+            <div class="card-body text-center">
+              <p class="card-title">Yury Talero</p>
+              <p class="card-text">Décimo A</p>
+              <p class="card-text">Stable design to increase speed and agility during a match.</p>
+  <!-- Modal único para mostrar cualquier imagen centrada y fondo desenfocado -->
+  <div id="imgModalBackdrop" style="display:none;">
+    <div class="img-modal-backdrop">
+      <div class="img-modal-content">
+        <button class="img-modal-close" id="imgModalClose" title="Cerrar">&times;</button>
+        <button class="img-modal-arrow" id="imgModalPrev" style="display:none;position:absolute;left:12px;top:50%;transform:translateY(-50%);background:rgba(255,255,255,0.7);border:none;border-radius:50%;width:36px;height:36px;font-size:22px;color:#012a4a;cursor:pointer;z-index:2;align-items:center;justify-content:center;">&#8592;</button>
+        <img id="imgModalImg" src="" alt="Imagen ampliada" class="img-modal-img">
+        <button class="img-modal-arrow" id="imgModalNext" style="display:none;position:absolute;right:12px;top:50%;transform:translateY(-50%);background:rgba(255,255,255,0.7);border:none;border-radius:50%;width:36px;height:36px;font-size:22px;color:#012a4a;cursor:pointer;z-index:2;align-items:center;justify-content:center;">&#8594;</button>
+      </div>
+    </div>
+  </div>
+      </div>
+    </div>
+      </main>
+
+      
+<footer id="footer" class="footer position-relative light-background w-100" style="margin:0; padding:0;">
+  <div class="container-fluid px-0">
+    <div class="row gy-4 mx-0">
+      <div class="col-lg-12">
+        <div class="footer-content text-center p-4" style="background:#fff;">
+          <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+            <span class="sitename" style="color:#001a33;">Deportes Colegio CELCO</span>
+          </a>
+          <p class="mt-3">Sogamoso, Boyacá</p>
+          <p class="mt-2"><strong>Teléfono:</strong> <span>+57 323 2855794</span></p>
+          <p><strong>Email:</strong> <span>celcosogamoso01@gmail.com</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
+<style>
+/* Cambia el fondo y el color de texto del footer */
+.footer {
+  background-color: #ffffff; /* Fondo azul oscuro */
+  color: #ffffff;               /* Texto blanco */
+}
+
+/* Cambia el color de los enlaces del footer */
+.footer a,
+.footer .sitename {
+  color: #ffffff; /* Amarillo dorado, puedes cambiarlo */
+}
+
+.footer a:hover {
+  color: #ffffff; /* Azul claro al pasar el mouse */
+}
+
+/* Cambia el color de los títulos del footer */
+.footer h4,
+.footer .footer-about .logo span {
+  color: #ffffff; /* Amarillo dorado */
+}
+</style>
+<script>
+let modalImages = [];
+let modalIdx = 0;
+
+
+// Para tarjetas con secuencia de imágenes
+document.querySelectorAll('.image-sequence').forEach(function(seq){
+  const images = JSON.parse(seq.getAttribute('data-images'));
+  let idx = 0;
+  const img = seq.querySelector('.seq-img');
+  const prev = seq.querySelector('.seq-prev');
+  const next = seq.querySelector('.seq-next');
+  function showImage(i) {
+    img.src = images[i];
+  }
+  if (prev && next) {
+    prev.addEventListener('click', function(e){
+      e.stopPropagation();
+      idx = (idx - 1 + images.length) % images.length;
+      showImage(idx);
+    });
+    next.addEventListener('click', function(e){
+      e.stopPropagation();
+      idx = (idx + 1) % images.length;
+      showImage(idx);
+    });
+  }
+  // Mostrar imagen en modal al hacer click
+  img.addEventListener('click', function(e){
+    e.stopPropagation();
+    modalImages = images;
+    modalIdx = idx;
+    document.getElementById('imgModalImg').src = modalImages[modalIdx];
+    document.getElementById('imgModalBackdrop').style.display = 'block';
+    document.body.style.overflow = 'hidden';
+    document.getElementById('imgModalPrev').style.display = modalImages.length > 1 ? 'flex' : 'none';
+    document.getElementById('imgModalNext').style.display = modalImages.length > 1 ? 'flex' : 'none';
+  });
+});
+
+// Para cualquier imagen con la clase 'ampliable'
+document.querySelectorAll('img.ampliable').forEach(function(img){
+  img.addEventListener('click', function(e){
+    e.stopPropagation();
+    modalImages = [img.src];
+    modalIdx = 0;
+    document.getElementById('imgModalImg').src = img.src;
+    document.getElementById('imgModalBackdrop').style.display = 'block';
+    document.body.style.overflow = 'hidden';
+    document.getElementById('imgModalPrev').style.display = 'none';
+    document.getElementById('imgModalNext').style.display = 'none';
+  });
+});
+
+// Navegación en el modal
+document.getElementById('imgModalPrev').addEventListener('click', function(e){
+  e.stopPropagation();
+  modalIdx = (modalIdx - 1 + modalImages.length) % modalImages.length;
+  document.getElementById('imgModalImg').src = modalImages[modalIdx];
+});
+document.getElementById('imgModalNext').addEventListener('click', function(e){
+  e.stopPropagation();
+  modalIdx = (modalIdx + 1) % modalImages.length;
+  document.getElementById('imgModalImg').src = modalImages[modalIdx];
+});
+
+// Cerrar modal al hacer click en fondo o botón
+document.getElementById('imgModalBackdrop').addEventListener('click', function(e){
+  if (e.target.classList.contains('img-modal-backdrop') || e.target.classList.contains('img-modal-close')) {
+    document.getElementById('imgModalBackdrop').style.display = 'none';
+    document.body.style.overflow = '';
+  }
+});
+</script>
+
+</html>
